@@ -2,18 +2,20 @@ body {
 	margin: 0px;
 }
 
-#header {
-	background-image: url("imgs/header.png");
+header {
+	background-image: url("../imgs/header.png");
+    background-size: 100%;
+	padding-bottom: 100px;
 }
 
 .profile-picture {
 	height: 70%;
 	width: 70%;
-	margin-top: 75px;
+	margin-top: 125px;
 }
 
 #name {
-	margin-top: 80px;
+	margin-top: 130px;
 	margin-bottom: -25px;
 	font-weight: bold;
 }
