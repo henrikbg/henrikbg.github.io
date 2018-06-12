@@ -1,92 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120740126-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-120740126-1');
+        </script>
+
+
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     	<title>Henrik Berg | Portfolio</title>
 
       	
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link href="css/materialize.min.css" type="text/css" rel="stylesheet">
       	<link href="css/main.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>
     	   <div class="container">
     		    <div class="row">
-    			    <div class="col-4">
-    				    <img src="imgs/henrik.png" class="rounded-circle profile-picture">
+    			    <div class="col s4 m4 l4 valign-wrapper">
+    				    <img src="imgs/henrik.png" class="circle img-responsive z-depth-5" id="profile-picture">
     			    </div>
-    			    <div class="col-8">
+    			    <div class="col s8 m8 l8">
     				    <div class="row">
-    					   <h1 class="text-white" id="name">Henrik Berg</h1>
+    					   <h1 class="white-text montserrat-bold" id="name">Henrik Berg</h1>
     				    </div>
     				    <div class="row">
-    					   <h2 class="text-white">A student, programmer, aspiring pilot, and avid golfer.</h2>
+    					   <h2 class="white-text montserrat-semibold-italic">A student, programmer, aspiring pilot, and avid golfer.</h2>
     				    </div>
     			    </div>
     		    </div>
     	    </div>
         </header>
-        <section id="about-section">
+        <section id="about">
             <div class="container">
                 <div class="row">
-                    <h3 class="section-header">About me</h3>
+                    <h3 class="montserrat-semibold">About me.</h3>
                 </div>
                 <div class="row">
-                    <h4 class="section-description">Here is a little about myself.</h4>
-                </div>    
+                    <h5 class="roboto-medium">Here is a little about myself as a person.</h5>
+                </div>
                 <div class="row">
-                    <div class="col-3">
-                        <div class="row">
-                            <img src="imgs/norway.png" class="about-imgs mx-auto d-block" id="flag">
-                        </div>    
-                        <div class="row">
-                            <h5 class="sub-header">Origin</h5>
-                        </div>
-                        <div class="row">
-                            <p class="text-center">Originally from Norway, but currently reside in Houston, TX. In the past, I've lived in France, Russia, and England.</p>
+                    <div class="col s12 m4 l4">
+                        <div class="card grey lighten-3">
+                            <div class="card-content">
+                                <div class="row">
+                                    <img src="imgs/java.png" alt="Java Logo">
+                                </div>
+                                <div class="row">
+                                    <h4 class="montserrat-semibold">Programming</h4>
+                                </div>
+                                <div class="row">
+                                    <p class="roboto-regular">I am most proficient with Java, but I have experience with HTML, CSS, JSP, and SQL.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="row">
-                            <img src="imgs/village.png" class="about-imgs mx-auto d-block">
+                    <div class="col s12 m4 l4">
+                        <div class="card grey lighten-3">
+                            <div class="card-content">
+                                <div class="row">
+                                    <img src="imgs/norway.png" alt="Norwegian Flag">
+                                </div>
+                                <div class="row">
+                                    <h4 class="montserrat-semibold">Norwegian</h4>
+                                </div>
+                                <div class="row">
+                                    <p class="roboto-regular">I originally hail from Norway, but I've lived in many countries including the U.K., Russia, France</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <h5 class="sub-header">Education</h5>
-                        </div>
-                        <div class="row">
-                            <p class="text-center">Currently, I am attending The Village School, an international private school.</p>
-                        </div>    
                     </div>
-                    <div class="col-3">
-                        <div class="row">
-                            <img src="imgs/java.png" class="about-imgs mx-auto d-block">
+                    <div class="col s12 m4 l4">
+                        <div class="card grey lighten-3">
+                            <div class="card-content">
+                                <div class="row">
+                                    <img src="golf.png" alt="Java Logo">
+                                </div>
+                                <div class="row">
+                                    <h4 class="montserrat-semibold">Golf</h4>
+                                </div>
+                                <div class="row">
+                                    <p class="roboto-regular">I have a strong passion for golf in which I am apart of my high school golf team.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <h5 class="sub-header">Programming</h5>
-                        </div>
-                        <div class="row">
-                            <p class="text-center">I am most proficient with Java, however I have experience with SQL, JSP, HTML, CSS, and JS.</p>
-                        </div>    
                     </div>
-                    <div class="col-3">
-                        <div class="row">
-                            <img src="imgs/golf.png" class="about-imgs mx-auto d-block">
-                        </div>
-                        <div class="row">
-                            <h5 class="sub-header">Hobbies</h5>
-                        </div>
-                        <div class="row">
-                            <p class="text-center">I have a strong interest in golf and I am planning to take pilot lessons in the near future.</p>
-                        </div>    
-                    </div>     
                 </div>
             </div>
         </section>
-
-      	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     </body>
 </html>
